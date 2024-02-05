@@ -1,0 +1,16 @@
+#header{ /*header with name formatting*/
+    background-color:#520000;
+    border-style: inset;
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    width: 75%;
+}
+
+body{
+    background-color:#186118;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight:bold;
+    color:#f4a529;
+}
