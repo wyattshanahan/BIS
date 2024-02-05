@@ -1,0 +1,54 @@
+h1{ /*header with name formatting*/
+    background-color:#520000;
+    border-style: inset;
+    color: #f39c12; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+}
+
+nav{ /*for the navigational links*/
+    background-color:#a2ff00; /*from 04d9ff*/
+    border-style: outset;
+    color: #f39c12;  /*from f39c12*/
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    height:175px;
+}
+
+#bio{/*for bio formatting, # used for ID'd*/
+    background-color:#bc13fe; /*from 04d9ff (salmon)*/
+    border-style: outset;
+    color: #f39c12; /*f39c12*/
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    left:33%;
+    position: absolute;
+    text-align:left;
+    width:30%;
+    height:175px;
+}
+
+#goose{ /*for the geese*/
+    text-align:center;
+    top: 280px;
+    position: absolute;
+    left:33%;
+    width:30%;
+}
+
+#jpeg{ /*for the jpeg*/
+    text-align:center;
+    top: 280px;
+    position: absolute;
+    width: 30%;
+}
+
+#banff{
+    position:absolute;
+    left:66%;
+    border: 5px solid #a2ff00;
+}
