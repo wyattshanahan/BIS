@@ -1,0 +1,17 @@
+#header{ /*header with name formatting*/
+    background-color:gray;
+    border-style: solid;
+    color: black; 
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive; */
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+    color:black;
+}
+
+form{
+    text-align:center;
+}
