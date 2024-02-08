@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"> <!-- set lang to english-->
+<head>
+  <title>Exam 1</title>  <!--page title-->
+  <meta name="viewport" content="width=device-width"> <!--make page adjust to device screen size-->
+  <meta name="author" content="Wyatt Shanahan" />
+  <link rel="stylesheet" href="exam1.css">  <!-- tells which css file to use-->
+</head>
+<body > <!-- other colour: 00805b -->
+    <h1 id="header">Exam 1 - Lumen Calculation</h1> <!--header-->
+    <form method="post" action="exam1_results.php">
+        Enter Wattage: <input type="text" name="wattage" required> <!--text input for the product, required forces an input-->
+        <br />
+        <input type="radio" name="colour" value="Green" required>Green<br /><!--required attribute forces a radio sel-->
+        <input type="radio" name="colour" value="Red">Red <br />
+        <input type="radio" name="colour" value="Purple">Purple <br />
+        <input type="submit" name="submit" value="Calculate">
+    </form>
+</body>
+</html>
