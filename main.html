@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en"> <!-- set lang to english-->
+<head>
+  <title>Product Feedback</title>  <!--page title-->
+  <meta name="viewport" content="width=device-width"> <!--make page adjust to device screen size-->
+  <meta name="author" content="Wyatt Shanahan" />
+  <link rel="stylesheet" href="style.css">  <!-- tells which css file to use-->
+  <link rel="icon" type="image/x-icon" href="vibin.gif"> <!-- set icon-->
+</head>
+<body style="background-image:linear-gradient(to left,#186118,#3eb489,#186118)"> <!-- other colour: 00805b -->
+    <h1 id="header">Generic Shop Product Feedback</h1> <!--header-->
+    <form method="post" action="results.php">
+        <br />
+        Product Name: <input type="text" name="product" required> <!--text input for the product, required forces an input-->
+        Purchase Location:
+        <select name="city" required> <!--force a selection-->
+            <option value="Calgary">Calgary</option>
+            <option value="Edmonton">Edmonton</option>
+            <option value="Halifax">Halifax</option>
+            <option value="Montreal">Montreal</option>
+            <option value="Saskatoon">Saskatoon</option>
+            <option value="Toronto">Toronto</option>
+            <option value="Vancouver">Vancouver</option>
+            <option value="Victoria">Victoria</option>
+            <option value="Winnipeg">Winnipeg</option>
+        </select>
+        <br />
+        <br />
+        Level of Satisfaction:
+        <input type="radio" name="level" value="Satisfied" required>Highly Satisfied<!--required attribute forces a radio sel-->
+        <input type="radio" name="level" value="Somewhat Satisfied">Somewhat Satisfied
+        <input type="radio" name="level" value="Unsatisfied">Unsatisfied
+        <br />
+        <br />
+        Comments and Feedback:
+        <img id="karen" src="karen.png" alt="Karen Emoji" height="175px" width="175px"/> <!-- viewport can break sizing when attempting to use percentage-based width-->
+        <br/>
+        <br />
+        <textarea name="comments" cols="60" rows="10"></textarea> <!--not actually requiring comments, so no required attribute-->
+        <br />
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>
