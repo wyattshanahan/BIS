@@ -1,0 +1,48 @@
+#header{ /*header with name formatting*/
+    background-color:#520000;
+    border-style: inset;
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+}
+
+form{
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight:bold;
+    color:#f4a529;
+    left:3%;
+}
+#karen{
+    position:absolute;
+    left:45%;
+}
+#receipt{
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight:bold;
+    color:#f4a529;
+    left:3%;
+}
+#thumb{
+    position:absolute;
+    left:50%;
+    width:25%;
+}
+#coms{
+    border-style:outset;
+    text-align:left;
+    position:absolute;
+    max-width:30%;
+}
+#out{
+    padding-top:200px;
+}
+#thank{
+    left:25%;
+    height:195px;
+    border-style:outset;
+    text-align:left;
+    position:absolute;
+    width:20%;
+}
