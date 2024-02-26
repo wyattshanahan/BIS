@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"> <!-- set lang to english-->
+<head>
+  <title>Weighted Average</title>  <!--page title-->
+  <meta name="viewport" content="width=device-width"> <!--make page adjust to device screen size-->
+  <meta name="author" content="Wyatt Shanahan" />
+  <link rel="stylesheet" href="style.css">  <!-- tells which css file to use-->
+  <link rel="icon" type="image/x-icon" href="vibin.gif"> <!-- set icon-->
+</head>
+<body style="background-image:linear-gradient(to left,#186118,#3eb489,#186118)"> <!-- other colour: 00805b -->
+    <h1 id="header">Weighted Average</h1> <!--header-->
+    <form method="post" action="results.php">
+        <section id="instruct">
+            <h1><b>Instructions</b></h1>
+            Enter your name below and your grades to the right to calculate your weighted average :) 
+            <br />
+            <br />
+            Name: <input type="text" name="nom" required> <!--input name-->
+            <br />
+            <br />
+            <input type="submit" name="Calculate" value="Calculate">
+        </section>
+        <section id="exams"> <!-- exams and homework set to required to prevent math errors-->
+            Exam 1: <input type="text" name="exam1" size="7" required> 
+            <br /> <br />
+            Exam 2: <input type="text" name="exam2" size="7" required> 
+            <br /> <br />
+            Exam 3: <input type="text" name="exam3" size="7" required> 
+            <br /> <br />
+        </section>
+        <section id="homeworks">
+            Homework 1:<input type="text" name="hw1" size="7" required>
+            <br /> <br />
+            Homework 2:<input type="text" name="hw2" size="7" required>
+            <br /> <br />
+            Homework 3:<input type="text" name="hw3" size="7" required>
+            <br /> <br />
+            Homework 4:<input type="text" name="hw4" size="7" required>
+            <br /> <br />
+            Homework 5:<input type="text" name="hw5" size="7" required>
+            <br /> <br />
+        </section>
+    </form>
+    <img id="tren" src="tren.gif" alt="un tren" />
+</body>
+</html>
