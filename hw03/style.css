@@ -1,0 +1,57 @@
+#header{ /*header with name formatting*/
+    background-color:#520000;
+    border-style: inset;
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    padding:2px;
+    
+}
+#instruct{/*instructions column on main.html*/
+    color: #f4a529;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    position: absolute;
+    text-align: right;
+    width: 30%;
+    height:175px;
+}
+#exams{/*exams column on main.html*/
+    color: #f4a529;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    left:33%;
+    position: absolute;
+    text-align:right;
+    width:20%;
+    height:175px;
+}
+#homeworks{/*homework column on main.html*/
+    color: #f4a529;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    left:46%;
+    position: absolute;
+    text-align:right;
+    width:30%; /*made wide to prevent indent issues*/
+    height:175px;
+}
+#output{
+    background-image:linear-gradient(to left,#186118,#3eb489,#186118); /* other colour: 00805b */
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+}
+
+#grade{
+    position:absolute;
+    height:300px;
+    width:300px;
+    left:26%;
+}
+
+#tren{
+    position:absolute;
+    top:280px;
+    left:2%;
+}
