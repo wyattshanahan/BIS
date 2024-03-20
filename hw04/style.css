@@ -1,0 +1,35 @@
+#header{ /*header with name formatting*/
+    background-color:#520000;
+    border-style: inset;
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+}
+
+body{
+    background-image:linear-gradient(to left,#186118,#3eb489,#186118);
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight:bold;
+    color:#f4a529;
+}
+
+#sizes{
+    position:absolute;
+    left:1%;
+    width:30%;
+}
+#maths{
+    position:absolute;
+    left:34%;
+}
+#sad{
+    position:absolute;
+    left:30%;
+}
+#happy{
+    position:absolute;
+    left:30%;
+    margin-top:80px;
+}
