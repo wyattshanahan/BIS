@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"> <!-- set lang to english-->
+<head>
+  <title>Surface Area Calculator</title>  <!--page title-->
+  <meta name="viewport" content="width=device-width"> <!--make page adjust to device screen size-->
+  <meta name="author" content="Wyatt Shanahan" />
+  <link rel="stylesheet" href="style.css">  <!-- tells which css file to use-->
+  <link rel="icon" type="image/x-icon" href="vibin.gif"> <!-- set icon-->
+</head>
+<body>
+    <h1 id="header">Surface Area Calculator</h1>
+    <form method="post" action="results.php">
+        <section name="obj" id="obj"> <!-- radio buttons need caution with css, it broke originally-->
+            Select an object:     
+            <input type="radio" name="objtype" value="cone" >Cone <!--required attribute forces an input for one of radio buttons-->
+            <input type="radio" name="objtype" value="cylinder">Cylinder
+            <input type="radio" name="objtype" value="capsule">Capsule
+        </section>
+        <section id="sizes">
+            <br /> <br />
+            Radius: <input type="text" name="radius" size="8" required> <!--required attribute forces an input-->
+            <br /> <br />
+            Height: <input type="text" name="height" size="8" required> <!--required attribute forces an input-->
+            <br /> <br />
+            <input type="submit" name="Calculate" value="Calculate">
+        </section>
+    </form>
+    <img id="maths" src="maths.jpg" alt="a man holding a paper" height="300px" width="300px"/>
+</body>
+</html>
