@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"> <!-- set lang to english-->
+<!--LAB 1: USER INPUT 5FEB2024-->
+<head>
+  <title>Population Growth</title>  <!--page title-->
+  <meta name="viewport" content="width=device-width"> <!--make page adjust to device screen size-->
+  <meta name="author" content="Wyatt Shanahan" />
+  <link rel="stylesheet" href="style.css">  <!-- tells which css file to use-->
+  <link rel="icon" type="image/x-icon" href="vibin.gif"> <!-- set icon-->
+</head>
+<body style="background-image:linear-gradient(to left,#186118,#3eb489,#186118)"> <!-- other colour: 00805b -->
+    <h1 id="header">Input</h1>
+    <form action="results.php" method="post">
+            First Name: <input type="text" name="fname">
+    <br /> <br />
+    Classification:
+    <select name="class">
+        <option value="Faculty">Faculty</option>
+        <option value="Student">Student</option>
+        <option value="Staff">Staff</option>
+    </select>
+    <br /> <br />
+    Drink:  <input type="radio" name="drink" value="Coke"> Coke
+            <input type="radio" name="drink" value="Pepsi"> Pepsi
+            <input type="radio" name="drink" value="RC Cola"> RC Cola
+
+    <br />
+    Comments:
+    <textarea name="comments" rows="20" cols="80" value="Click me bruv"></textarea> <!--col ~= 1 char wide-->
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <input type="submit" name="submit" value="submit bruv">
+    <br />
+    </form>
+</body>
+</html>
