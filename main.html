@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"> <!-- set lang to english-->
+<head>
+  <title>Population Growth</title>  <!--page title-->
+  <meta name="viewport" content="width=device-width"> <!--make page adjust to device screen size-->
+  <meta name="author" content="Wyatt Shanahan" />
+  <link rel="stylesheet" href="style.css">  <!-- tells which css file to use-->
+  <link rel="icon" type="image/x-icon" href="vibin.gif"> <!-- set icon-->
+</head>
+<body>
+    <h1 id="header">Population Growth Projection</h1>
+    <img id="pop" src="worldpop.png" height="250px" width="250px">
+    <form method="post" action="results.php">
+        Years to forecast: <input type="text" name="years" size="10" required>
+        <br /> <br />
+        Current Population: <input type="text" name="curr" size="10" required>
+        <br /> <br />
+        Growth Rate: <input type="text" name="rate" size="10" required>
+        <br /> <br />
+        <input type="submit" name="Calculate" value="Calculate">
+    </form>
+ <!--add a silly image :)-->
+</body>
+</html>
