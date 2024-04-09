@@ -1,0 +1,41 @@
+/*#header{ /*header with name formatting
+    background-color:gray;
+    border-style: solid;
+    color: black; 
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    font-weight: bold;
+    text-align: center;
+} 
+
+This section of code is not used for this assignment*/
+
+body{
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+    color:black;
+}
+
+form{
+    text-align:left;
+    border-style:solid;
+    position:absolute;
+    left: 3%;
+    width:27%;
+    padding:7px;
+}
+
+#instructions{
+    border-style:solid;
+    position:absolute;
+    left:38%;
+    width:27%;
+    padding:7px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    background-color:gray;
+}
