@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"> <!-- set lang to english-->
+<head>
+  <title>Homework Interface</title>  <!--page title-->
+  <meta name="viewport" content="width=device-width"> <!--make page adjust to device screen size-->
+  <meta name="author" content="Wyatt Shanahan" />
+  <link rel="stylesheet" href="exam1.css">  <!-- tells which css file to use-->
+</head>
+<body > <!-- other colour: 00805b -->
+    <form method="post" action="exam1.php">
+        Userid: <input type="text" name="userID" required> <!--text input for the product, required forces an input-->
+        <br />
+        <h3><b>Choose Section:</b></h3>
+        <input type="radio" name="classID" value="Guest" required>Guest<br /><!--required attribute forces a radio sel-->
+        <input type="radio" name="classID" value="BIS1523">BIS1523<br />
+        <input type="radio" name="classID" value="BIS2523">BIS2523<br />
+        <br />
+        <input type="submit" name="submit" value="Log In">
+    </form>
+    <section id="instructions">
+        <h1><b>Homework Interface</b></h1>
+        <h2>Authentication</h2>
+        Please enter userid on the left, and select the section that you would like to log into.
+    </section>
+</body>
+</html>
