@@ -1,0 +1,14 @@
+table {  
+   border-collapse: collapse;
+   text-align: center;
+}
+ 
+td, th {
+  border-style: solid;
+  border-color:black;
+}
+
+th{
+    color:white;
+    background-color:#800000;
+}
