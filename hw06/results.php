@@ -9,7 +9,7 @@
   <!-- ----------------------------------
 			BIS1523/BIS2523 Documentation
    Name:Wyatt Shanahan
-   Netid:wls219
+   Netid:
    Date:28 Jan 2024
    
    Variables used:
