@@ -10,6 +10,8 @@ Code in this repository consists of:
 
 This code was developed using [Homework Interface](https://mislab.business.msstate.edu/~scanfield/IDE/support/auth.php), which in turn is powered by [ACE](https://github.com/ajaxorg/ace) editor.
 
+This subdirectory was created and migrated to on 27 July 2024.
+
 # Assignments
 
 ## Homework 2
