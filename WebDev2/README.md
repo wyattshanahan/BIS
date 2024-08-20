@@ -12,14 +12,7 @@ This code was developed using [Homework Interface](https://mislab.business.mssta
 
 This subdirectory was created and migrated to on 27 July 2024.
 
-# Assignments
-
-## Homework X
-
-Overview:
-
-Calculations:
-
+**To view assignment information, please use the assignments.md file in this directory**
 
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
 
