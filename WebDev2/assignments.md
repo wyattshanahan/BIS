@@ -1,6 +1,6 @@
 ## About
 
-This document details the provided guidelines for each homework assignment starting with homework 2.
+This document details the provided guidelines for each homework assignment starting with homework 1.
 
 ## Homework 1
 
