@@ -35,5 +35,18 @@ Overview: Write a program to do a temperature conversion, based on a radio butto
 
 ``Celcius to Fahrenheit is: temp_in * 9 / 5 + 32``
 
+## Homework 6
 
-TODO: Homeworks 6-8
+Overview: Write a program to project several years of population growth. The user should be able to enter in the number of years, the current population, and the growth rate.  Style the table as shown below (though exact colors don’t have to match. Format the numbers in your output. 
+
+- You can used the “toFixed” function to format your numbers. 
+- Rate is entered in as a percentage, so each year the population will grow by pop * rate / 100.
+
+## Homework 7
+
+Overview: Write a javascript program to read and search an XML file. Your program should present the user with a selection of radio buttons, and when the button is pressed use javascript to do an AJAX request for the XML file, and print out countries who's <continent> field match the radio button the user selected.  
+
+## Homework 8
+
+Overview: Homework 8 performs the same function as homework 7, but with a JSON file rather than an XML file.  The data file is "un.json".
+
