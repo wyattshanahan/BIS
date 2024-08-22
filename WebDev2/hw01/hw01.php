@@ -33,9 +33,6 @@
             <td><img src='" . $covers[$i] . "' alt='an book cover'  height='100'></td>
             </tr>";
     }
-    print"$covers[1]";
-    print"</br>";
-    print"$novels[1]";
 ?>    
 
 </section>
