@@ -7,5 +7,5 @@
        
        procedure division.
        000-main.
-      	display "Hello, World!".
-      	stop run.
+           display "Hello, World!".
+      	   stop run.
