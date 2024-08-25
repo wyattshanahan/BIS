@@ -7,10 +7,12 @@
    BIS1523 Documentation
    Name:
    Netid:
-   Date:
+   Date: 08 September 2024
 
    Variables used:
-      <variable name>  <description of data variable will hold>
+      <$covers>  <Store a list of cover URLs from covers.txt>
+      <$i> <counter variable>
+      <$novels> <store a list of Novels from novels.txt>
 
    -------------------------------------  -->
 </head>
