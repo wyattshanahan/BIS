@@ -1,5 +1,5 @@
 http://upload.wikimedia.org/wikipedia/en/2/2b/Storm_Front.png
-http://upload.wikimedia.org/wikipedia/en/f/fd/Fool_Moon.jpg
+https://upload.wikimedia.org/wikipedia/en/f/f0/Fool_Moon_%282001_Jim_Butcher_book%29_cover.jpg
 http://upload.wikimedia.org/wikipedia/en/f/ff/Grave_Peril.jpg
 http://upload.wikimedia.org/wikipedia/en/9/94/Summer_Knight.jpg
 http://upload.wikimedia.org/wikipedia/en/c/c7/Death_Masks.jpg
