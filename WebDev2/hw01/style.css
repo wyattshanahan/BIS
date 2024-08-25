@@ -1,39 +1,35 @@
-#leftcol {
-    position: absolute;
-    width: 45%;
-}
-
-#rightcol {
-    position: absolute;
-    width: 45%;
-    left: 50%; 
-}
-
 h1 {
     text-align: center; 
 }
 
-
 table {
-  width: 100%;
-  border-style: solid;
+  width: 16%;
   border-collapse: collapse;
+  position:absolute;
+  left: 42%;
 }
 
 td, th {
-  border-style: solid;
   border-color: black;
-  padding: 8px;
-  text-align: center;
+  padding: 1px;
+  text-align: left;
+}
+
+td {
+    border-style: solid;
 }
 
 th {
-  background-color: green;
-  color: white;
+  border-style: solid;
   text-align: center;
+  font-size: 25px;
+  border-collapse: collapse;
 }
 
-tr:nth-of-type(odd) {
-      background-color : PaleGreen;
+th:first-child{
+    border-right: none;
+}
 
+th:last-child{
+    border-left: none;
 }
