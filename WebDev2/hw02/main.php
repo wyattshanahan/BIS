@@ -42,7 +42,12 @@
                 <td>$lineprice</td>
             </tr>";
         }
-    } 
+    }
+    print"<tr>
+        <td colspan='2' id='colspan'>Totals:</td>
+        <td>$totalquantity</td>
+        <td>$totalprice</td>
+    </tr>";
 ?>
 </body>
 </html>
