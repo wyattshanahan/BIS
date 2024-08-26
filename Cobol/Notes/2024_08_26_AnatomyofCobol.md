@@ -3,6 +3,16 @@
 ## Anatomy of COBOL
 
 - Column dependent language - needs to be aligned past col 7
+- Cols 1-6 are never used
+- Col 7 uses asterisk for comment lines
+- *> sometimes needed to fix the code
+- Cols 8-11 (Area A) is where compiler looks for the four divisions
+- Cols 12-72 (Area B) is the executable statements
+
+## User defined names
+- a-z, 0-9, and dashes
+- no embedded spaces
+- 2-30 chars, don't start with number
 
 ## The Four Divisions of COBOL
 
