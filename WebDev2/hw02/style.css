@@ -1,1 +1,35 @@
+body{
+    background-image:linear-gradient(to left,#186118,#3eb489,#186118);
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight:bold;
+    color:#f4a529;
+}
+
+#colspan{
+    color: #f4a529;
+    text-align: right;
+}
+
+table{
+    border-collapse:collapse;
+    border: 2px #f4a529;
+    border-style: solid;
+    padding: 5px;
+}
+
+th{
+    background-color:#520000;
+    border: 2px #f4a529;
+    border-style:solid;
+    text-align:center;
+}
+
+td{
+    border: 2px #f2a529;
+    background-color:purple;
+    padding:5px;
+    border-style:solid;
+    padding-left:1px;
+    padding-right:10px;
+}
 
