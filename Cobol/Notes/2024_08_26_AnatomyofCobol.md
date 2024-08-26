@@ -27,6 +27,7 @@
 4. Procedure Division
     - Executable statements and commands
     - Organised into paragraphs
+    - Paragraphs allow for modules (or functions) to be used multiple times in the procedures
 
 ## Other Points of Note
 `` stop run.`` is needed to end program.
