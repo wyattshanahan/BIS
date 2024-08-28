@@ -1,0 +1,57 @@
+#input{ /*header with name formatting*/
+    background-color:#520000;
+    border-style: inset;
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    width: 90%; /*may need expanding, depending on data size*/
+}
+
+body{
+    background-image:linear-gradient(to left,#186118,#3eb489,#186118);
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight:bold;
+    color:#f4a529;
+}
+
+#selector{
+    border-style: inset;
+    color: #f4a529;
+    left: 3%;
+    width: 37%;
+    padding: 7px;
+    position:absolute;
+}
+
+#gradeTable{
+    /*border-style: inset;*/
+    color: #f4a529;
+    left:43%;
+    width:37%;
+    padding:7px;
+    position:absolute;
+}
+
+table{
+    border-collapse:collapse;
+    border: 2px #f4a529;
+    border-style: solid;
+    padding: 5px;
+}
+
+th{
+    background-color:#520000;
+    border: 2px #f4a529;
+    border-style:solid;
+    text-align:center;
+}
+
+td{
+    border: 2px #f2a529;
+    background-color:purple;
+    padding:3px;
+    border-style:solid;
+    padding-left:10px;
+    padding-right:10px;
+}
