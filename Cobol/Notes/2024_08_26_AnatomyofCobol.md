@@ -34,4 +34,6 @@
 
 All lines must end with a period
 
-Executable statements must line up in col 12, other code starts in col 8
+Executable statements must line up in col 12, other code starts in col 8.
+
+Don't use reserved words as user defined names (blue on instructor's system)
