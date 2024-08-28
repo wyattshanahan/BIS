@@ -1,7 +1,7 @@
        *> Assignment 1 - BIS 4523 COBOL
-	   identification division.
+       identification division.
        program-id. HelloWorld.
-	   
+       author. Wyatt Shanahan.   
        environment division.
 	   
        data division.
