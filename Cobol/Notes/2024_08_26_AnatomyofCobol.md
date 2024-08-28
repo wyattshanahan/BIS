@@ -32,6 +32,11 @@
 ## Other Points of Note
 `` stop run.`` is needed to end program.
 
+## Types of Errors
+    - Syntax error: typos, misusing reserved word, etc. breaking rules of the language
+    - Runtime/Execution error: (ex divide by 0, open non-existent file)
+    - Logic error: when output comes in unexpected form, generally issue with the programmer's logic
+
 All lines must end with a period
 
 Executable statements must line up in col 12, other code starts in col 8.
