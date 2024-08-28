@@ -31,7 +31,7 @@
 
 ## Types of Errors
     - Syntax error: typos, misusing reserved word, etc. breaking rules of the language
-    - Runtime/Execution error: (ex divide by 0, open non-existent file)
+    - Runtime/Execution error: (ex divide by 0, open non-existent file) - syntax correct, but not possible to do
     - Logic error: when output comes in unexpected form, generally issue with the programmer's logic
 
 ## Other Points of Note
