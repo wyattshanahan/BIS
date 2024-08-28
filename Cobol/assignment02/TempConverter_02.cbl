@@ -19,6 +19,7 @@
            compute neCent = (nFah - 32) * 0.5556.
            display "The value in celsius is " neCent.
            display " ".
-           
+           display "Thanks for using the service. Goodbye.".
+           display " ".
            stop run.
            
