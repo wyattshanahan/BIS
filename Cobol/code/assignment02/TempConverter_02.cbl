@@ -18,7 +18,7 @@
            display "Enter a fahrenheit temp to convert to celsius: ".
            accept nFah.
            compute neCel = (nFah - 32) * 0.5556.
-           display "The value in celsius is " neCel.
+           display "The value in celsius is   " neCel.
            display " ".
            display "Thanks for using the service. Goodbye.".
            display " ".
