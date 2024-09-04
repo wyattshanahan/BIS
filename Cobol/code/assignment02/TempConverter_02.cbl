@@ -7,8 +7,8 @@
        data division.
        
        working-storage section.
-       01 nFah pic s999999v99.
-       01 nCel pic s999999v99.
+       77 nFah pic s999999v99.
+       77 neCel pic -zzzzz9.99.
        
        procedure division.
        000-main.
@@ -17,8 +17,8 @@
            display " ".
            display "Enter a fahrenheit temp to convert to celsius: ".
            accept nFah.
-           compute nCel = (nFah - 32) * 0.5556.
-           display "The value in celsius is " nCel.
+           compute neCel = (nFah - 32) * 0.5556.
+           display "The value in celsius is " neCel.
            display " ".
            display "Thanks for using the service. Goodbye.".
            display " ".
