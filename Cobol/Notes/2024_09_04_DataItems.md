@@ -7,6 +7,7 @@
 -  Place independent variables in the ``WORKING-STORAGE SECTION`` - don't interact with a heirarchy of data items
 -  Must obey the restrictions on user-defined names
 -  3 types: Numeric, Numeric edited (used for output), and Alphanumeric
+-  Level 77 - independent variables
 
 ### PIC Clauses
 - Used to define data types and maximum size
