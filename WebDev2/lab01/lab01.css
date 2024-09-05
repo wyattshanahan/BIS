@@ -1,0 +1,30 @@
+#output_area {
+  position: absolute;
+  left: 49%;
+  padding: 10px;
+  min-height: 200px;
+  border-radius: 15px;
+  float: right;
+  width: 46%;
+  box-shadow: 2px 2px 10px black;
+}
+
+#input_area {
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  width: 46%;
+  float: left;
+  box-shadow: 2px 2px 10px black;  
+  min-height: 200px;
+}
+
+th {
+	font-face: tahoma;
+	font-size: 20px;
+	text-decoration: underline; 
+}
+
+td {
+	padding-left: 15px;
+}
