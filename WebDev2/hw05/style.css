@@ -1,0 +1,28 @@
+#results {
+  position: absolute;
+  left: 49%;
+  padding: 10px;
+  min-height: 200px;
+  border-radius: 15px;
+  float: right;
+  width: 46%;
+  box-shadow: 2px 2px 10px black;
+}
+
+#input {
+  position: relative;
+  padding: 10px;
+  border-radius: 15px;
+  width: 46%;
+  float: left;
+  box-shadow: 2px 2px 10px black;  
+  min-height: 200px;
+}
+
+h2 {
+  text-align: center; 
+}
+
+#button_area {
+    text-align: center; 
+}
