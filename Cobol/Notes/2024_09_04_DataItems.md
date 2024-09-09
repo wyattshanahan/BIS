@@ -25,3 +25,7 @@
 - Name each variable logically
 - Use data-type prefix (n, ne, x, g, etc.)
 - 'n' for numeric, 'ne' for numeric-edited, and '
+
+## Other formatting options
+- ``77 neChequeProtection ***,**9.99.`` to hide/obscure some chars
+- Move retains value, simply copies to another variable
