@@ -15,6 +15,22 @@
 | Numeric | input/calculations | 9 s (implied sign) v (implied decimal) | n |
 | Numeric-Edited | output | 9 +-, .(real decimal) $ z (supress zero) | ne |
 
+### Numeric Edited Formatting Options
+
+| **Type** | **PIC Clause** |
+|-|-|
+|neDecimalPoint|``pic 99999.99``|
+|neCommaInsertion|``pic 99,999.99``|
+|neZeroSuppression|``pic zz.zz9.99``|
+|neFloatingDollarSign|``pic $$$,$$9.99``|
+|neCheckProtection|``pic ***,**9.99``|
+|neFloatingPlusSign|``pic +++,++9.99``|
+|neRightPlusSign|``pic zzz,zz9.99+``|
+|neFloatingMinusSign|``pic ---,--9.99``|
+|neRightMinusSign|``pic zzz,zz9.99-``|
+|neDB|``pic zz,zz9.99DB``|
+|neCR|``pic zz,zz9.99CR``|
+
 ### PIC Clauses
 - Used to define data types and maximum size
 - 'v' is an implied decimal point in numeric PIC item
