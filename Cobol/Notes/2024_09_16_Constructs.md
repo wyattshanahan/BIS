@@ -11,3 +11,11 @@
 - Value clause of a data item - initialisation at compile time
 
 - If 01 var has 05 data items below, then 01 doesn't require a pic clause
+
+- Fillers such as ``05 filler pic x(6)`` are spaceholders
+
+- xDisplayLine is used to display/output the report
+
+- ``perform 100-procedure until condition = true.``
+
+- When using an if statement, an end-if is required to end the statement
