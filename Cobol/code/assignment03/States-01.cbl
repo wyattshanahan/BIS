@@ -97,7 +97,6 @@
            
        300-terminate.
            close infile.
-           display " ".
            compute neTotalDen = nTotalPop/nTotalArea.
            move nTotalArea to neTotalArea.
            move nTotalPop to neTotalPop.
