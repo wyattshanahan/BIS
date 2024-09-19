@@ -1,0 +1,22 @@
+table, th, td {
+	border-collapse: collapse;
+	border-style: solid; 
+}
+
+th {
+	color: white;
+	background-color: black; 
+	border-color: black; 
+}
+
+#outarea {
+    position: absolute; 
+    left: 35%;
+    width: 40%;
+
+}
+
+form {
+    position: absolute; 
+    width: 35%;
+}
