@@ -16,3 +16,5 @@
 ``open input xInput`` and ``open output xOutput``
 
 ``before advancing 1 line.`` does a carriage return iirc
+
+``trim`` removes any extra spaces from pic clause which was overzealous
