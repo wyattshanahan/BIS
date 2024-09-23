@@ -11,3 +11,8 @@
 
 ``Organization is line sequential.`` means one record per line
 
+`` value`` sets an initial value before compile time
+
+``open input xInput`` and ``open output xOutput``
+
+
