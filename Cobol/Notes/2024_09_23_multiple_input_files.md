@@ -15,4 +15,4 @@
 
 ``open input xInput`` and ``open output xOutput``
 
-
+``before advancing 1 line.`` does a carriage return iirc
