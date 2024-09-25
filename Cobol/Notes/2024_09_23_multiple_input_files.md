@@ -18,3 +18,5 @@
 ``before advancing 1 line.`` does a carriage return iirc
 
 ``trim`` removes any extra spaces from pic clause which was overzealous
+
+- internal file name is the nickname for a file
