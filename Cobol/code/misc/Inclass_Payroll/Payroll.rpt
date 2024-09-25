@@ -1,0 +1,51 @@
+ NUM  EMPLOYEE NAME                   PAYRATE  GROSS PAY
+1001  Pearson Bear 00525,                40      .00    $640.00
+1001  Pearson Allison 0175, 0            40      .00    $640.00
+1001  Hodges Julia 01225,                40      .00    $640.00
+1001  Hodges Trooper 00525,              40      .00    $640.00
+1001  McNulty Thad 00650,                40      .00    $640.00
+1001  Logan Buck 00700,                  40      .00    $640.00
+1001  Gilligan Thom 00995,               40      .00    $640.00
+1001  Doyle Fred 01000,                  40      .00    $640.00
+1001  Hurst Brad 00875,                  40      .00    $640.00
+1001  Wallace Gary 00625,                40      .00    $640.00
+1002  Pearson Bear 00525,                55      .00  $3,380.00
+1002  Pearson Allison 0175, 0            55      .00  $3,380.00
+1002  Hodges Julia 01225,                55      .00  $3,380.00
+1002  Hodges Trooper 00525,              55      .00  $3,380.00
+1002  McNulty Thad 00650,                55      .00  $3,380.00
+1002  Logan Buck 00700,                  55      .00  $3,380.00
+1002  Gilligan Thom 00995,               55      .00  $3,380.00
+1002  Doyle Fred 01000,                  55      .00  $3,380.00
+1002  Hurst Brad 00875,                  55      .00  $3,380.00
+1002  Wallace Gary 00625,                55      .00  $3,380.00
+2002  Pearson Bear 00525,                12      .00  $6,192.00
+2002  Pearson Allison 0175, 0            12      .00  $6,192.00
+2002  Hodges Julia 01225,                12      .00  $6,192.00
+2002  Hodges Trooper 00525,              12      .00  $6,192.00
+2002  McNulty Thad 00650,                12      .00  $6,192.00
+2002  Logan Buck 00700,                  12      .00  $6,192.00
+2002  Gilligan Thom 00995,               12      .00  $6,192.00
+2002  Doyle Fred 01000,                  12      .00  $6,192.00
+2002  Hurst Brad 00875,                  12      .00  $6,192.00
+2002  Wallace Gary 00625,                12      .00  $6,192.00
+3002  Pearson Bear 00525,                 8      .00  $4,128.00
+3002  Pearson Allison 0175, 0             8      .00  $4,128.00
+3002  Hodges Julia 01225,                 8      .00  $4,128.00
+3002  Hodges Trooper 00525,               8      .00  $4,128.00
+3002  McNulty Thad 00650,                 8      .00  $4,128.00
+3002  Logan Buck 00700,                   8      .00  $4,128.00
+3002  Gilligan Thom 00995,                8      .00  $4,128.00
+3002  Doyle Fred 01000,                   8      .00  $4,128.00
+3002  Hurst Brad 00875,                   8      .00  $4,128.00
+3002  Wallace Gary 00625,                 8      .00  $4,128.00
+3004  Pearson Bear 00525,                 1      .00  $5,516.00
+3004  Pearson Allison 0175, 0             1      .00  $5,516.00
+3004  Hodges Julia 01225,                 1      .00  $5,516.00
+3004  Hodges Trooper 00525,               1      .00  $5,516.00
+3004  McNulty Thad 00650,                 1      .00  $5,516.00
+3004  Logan Buck 00700,                   1      .00  $5,516.00
+3004  Gilligan Thom 00995,                1      .00  $5,516.00
+3004  Doyle Fred 01000,                   1      .00  $5,516.00
+3004  Hurst Brad 00875,                   1      .00  $5,516.00
+3004  Wallace Gary 00625,                 1      .00  $5,516.00
