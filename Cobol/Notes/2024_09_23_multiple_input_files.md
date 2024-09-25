@@ -20,3 +20,6 @@
 ``trim`` removes any extra spaces from pic clause which was overzealous
 
 - internal file name is the nickname for a file
+- ``fd`` stands for file description
+- associated record description describes record format
+- We use the smaller/filter file first
