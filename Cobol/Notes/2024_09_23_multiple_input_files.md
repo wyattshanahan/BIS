@@ -23,3 +23,7 @@
 - ``fd`` stands for file description
 - associated record description describes record format
 - We use the smaller/filter file first
+
+- Want to save to multiple variables at once?
+- `` compute nGrossPay, neGrossPay = calc`` or ``move to neGross,nGross``
+- 
