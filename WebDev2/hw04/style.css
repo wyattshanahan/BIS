@@ -1,4 +1,4 @@
-#input{ /*header with name formatting*/
+#header{ /*header with name formatting*/
     background-color:#520000;
     border-style: inset;
     color: #f4a529; 
@@ -8,6 +8,18 @@
     width: 90%; /*may need expanding, depending on data size*/
 }
 
+#input{ /*header with name formatting*/
+    top: 100px;
+    background-color:#520000;
+    border-style: inset;
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    left: 9%;
+    width: 37%; /*may need expanding, depending on data size*/
+}
+
 body{
     background-image:linear-gradient(to left,#186118,#3eb489,#186118);
     font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
@@ -15,19 +27,12 @@ body{
     color:#f4a529;
 }
 
-#selector{
-    border-style: inset;
-    color: #f4a529;
-    left: 3%;
-    width: 37%;
-    padding: 7px;
-    position:absolute;
-}
 
-#gradeTable{
-    /*border-style: inset;*/
+#output{
+   /*border-style: inset;*/
+    top: 100px;
     color: #f4a529;
-    left:43%;
+    left:63%;
     width:37%;
     padding:7px;
     position:absolute;
