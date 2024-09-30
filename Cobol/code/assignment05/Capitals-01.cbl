@@ -31,19 +31,20 @@
        01 xOUTPUTHEADING.
           05 FILLER  PIC XXX     VALUE '   '.
           05 FILLER  PIC X(7)    VALUE 'Capital'.
-          05 FILLER  PIC X(14)   VALUE SPACES.
+          05 FILLER  PIC X(12)   VALUE SPACES.
           05 FILLER  PIC X(12)   VALUE 'Population  '.
           05 FILLER  PIC X(9)    VALUE 'Founded  '.
           05 FILLER  PIC XXXX    VALUE 'Rank'.
           
        01 xOUTPUTDETAIL. *> do this, consider formatting necessary
-          05 xCityStateOUT   PIC x(30).
-          05 FILLER       PIC XX      VALUE SPACES.
-          05 nePopOut    PIC 9(7).
-          05 FILLER       PIC XX      VALUE SPACES.
-          05 neFoundedOut  PIC 9999.
-          05 FILLER       PIC XX      VALUE SPACES.
-          05 neRankOut    PIC 9.
+          05 FILLER          PIC X(5) VALUE SPACES.    
+          05 xCityStateOUT   PIC x(18).
+          05 FILLER          PIC XX      VALUE SPACES.
+          05 nePopOut        PIC 9(7).
+          05 FILLER          PIC XXXX      VALUE SPACES.
+          05 neFoundedOut    PIC 9999.
+          05 FILLER          PIC XXXXX      VALUE SPACES.
+          05 neRankOut       PIC 9.
           
        01 xCapitalTable.
           05  xCapitalElement OCCURS 50 TIMES.
@@ -86,6 +87,7 @@
            DISPLAY "Min population to search for? " WITH NO ADVANCING.
            ACCEPT nFilter.
            DISPLAY " ".
+           DISPLAY xOUTPUTHEADING.
            PERFORM 210-FILTER VARYING nProcInc FROM 1 BY 1 UNTIL
               nProcInc > nLoadInc.
            
