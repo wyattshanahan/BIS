@@ -8,8 +8,6 @@
        
            SELECT INFILE ASSIGN TO 'Capitals.txt'
              ORGANIZATION IS LINE SEQUENTIAL.
-           SELECT OUTFILE ASSIGN TO 'Payroll.rpt'
-             ORGANIZATION IS LINE SEQUENTIAL.
              
        DATA DIVISION.
        FILE SECTION.
@@ -22,32 +20,30 @@
            05 nFoundedIn     pic 9(4).
            05 nPopRankIn     pic 99.
 
-       *> END WORK
        WORKING-STORAGE SECTION.
-       77 xEOF     PIC X  VALUE 'n'.
+       77 xEOF       PIC X  VALUE 'n'.
        77 nLoadInc   PIC 99 VALUE 0.
        77 nProcInc   PIC 99 VALUE 0.
-       77 nFilter  PIC X(9).
+       77 nFilter    PIC s9999999.
+       77 nCapCnt    PIC 99 VALUE 0.
+       77 neCapCnt   PIC z9 VALUE 0.
        
        01 xOUTPUTHEADING.
-          05 FILLER  PIC XXXX    VALUE ' NUM'.
-          05 FILLER  PIC XX      VALUE SPACES.
-          05 FILLER  PIC X(30)   VALUE 'EMPLOYEE NAME'.
-          05 FILLER  PIC XX      VALUE SPACES.
-          05 FILLER  PIC X(7)    VALUE 'PAYRATE'.
-          05 FILLER  PIC XX      VALUE SPACES.
-          05 FILLER  PIC X(9)    VALUE 'GROSS PAY'.
+          05 FILLER  PIC XXX     VALUE '   '.
+          05 FILLER  PIC X(7)    VALUE 'Capital'.
+          05 FILLER  PIC X(14)   VALUE SPACES.
+          05 FILLER  PIC X(12)   VALUE 'Population  '.
+          05 FILLER  PIC X(9)    VALUE 'Founded  '.
+          05 FILLER  PIC XXXX    VALUE 'Rank'.
           
-       01 xOUTPUT. *> do this, consider formatting necessary
-          05 xCapOUT   PIC 9999.
+       01 xOUTPUTDETAIL. *> do this, consider formatting necessary
+          05 xCityStateOUT   PIC x(30).
           05 FILLER       PIC XX      VALUE SPACES.
-          05 xEMPNAME     PIC X(30).
+          05 nePopOut    PIC 9(7).
           05 FILLER       PIC XX      VALUE SPACES.
-          05 neHRSWORKED  PIC ZZZZ9.
+          05 neFoundedOut  PIC 9999.
           05 FILLER       PIC XX      VALUE SPACES.
-          05 nePAYRATE    PIC ZZZ9.99.
-          05 FILLER       PIC XX      VALUE SPACES.
-          05 neGROSSPAY   PIC $$,$$9.99.
+          05 neRankOut    PIC 9.
           
        01 xCapitalTable.
           05  xCapitalElement OCCURS 50 TIMES.
@@ -74,9 +70,8 @@
               AT END
                  MOVE 'y' TO xEOF,
               NOT AT END
-                 120-ADD-RCD
-           END READ.
-           CLOSE INFILE.
+                 PERFORM 120-ADD-RCD,
+           END-READ.
        
        120-ADD-RCD.
            ADD 1 TO nLoadInc.
@@ -84,15 +79,31 @@
            MOVE xCapNameIn TO xCapNameEL(nLoadInc).
            MOVE nPopIn TO nPopEL(nLoadInc).
            MOVE nFoundedIn TO nFoundedEL(nLoadInc).
-           MOVE nPopIn TO nPopEL(nLoadInc).
+           MOVE nPopRankIn TO nPopRankEL(nLoadInc).
        
        200-REPORT.
            DISPLAY " ".
            DISPLAY "Min population to search for? " WITH NO ADVANCING.
            ACCEPT nFilter.
-           IF nFilter NOT = 0 *> why do this? technically can just print all 50?
-              PERFORM 210-FILTER VARYING nProcInc FROM 1 BY 1 UNTIL
-                 nProcInc > nLoadInc.
-           END-IF.
+           DISPLAY " ".
+           PERFORM 210-FILTER VARYING nProcInc FROM 1 BY 1 UNTIL
+              nProcInc > nLoadInc.
            
-       *> KEEP GOING
+       210-FILTER.
+           IF (nFilter) <= FUNCTION NUMVAL(nPopEL(nProcInc))
+              ADD 1 to nCapCnt,
+              MOVE nPopEL(nProcInc) TO nePopOut,
+              MOVE nFoundedEL(nProcInc) TO neFoundedOut,
+              MOVE nPopRankEL(nProcInc) to neRankOut,
+              MOVE FUNCTION CONCATENATE(FUNCTION TRIM
+                     (xCapNameEL(nProcInc)), ", ", 
+                     xStateAbbrEL(nProcInc)) TO xCityStateOUT,
+              DISPLAY xOUTPUTDETAIL,
+            END-IF.
+       
+       300-TERMINATION.
+           MOVE nCapCnt to neCapCnt.
+           DISPLAY " ".
+           MOVE nCapCnt to neCapCnt.
+           DISPLAY "Number of Capitals Processed: " neCapCnt.
+           DISPLAY " ".
