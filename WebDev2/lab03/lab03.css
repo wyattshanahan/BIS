@@ -1,0 +1,17 @@
+table, td {
+  border-style: solid;
+  border-width: 1px;
+  border-collapse: collapse;
+}
+
+#leftcol {
+    position: absolute; 
+    width: 40%;
+}
+
+
+#rightcol {
+    position: absolute; 
+    left: 50%;
+    width: 40%;
+}
