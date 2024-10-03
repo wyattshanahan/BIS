@@ -8,8 +8,7 @@
   <link rel="icon" type="image/x-icon" href="vibin.gif"> <!-- set icon-->
   <!-- ----------------------------------
 			BIS2523 Documentation
-   Name:
-   Netid:
+   Name: WYATT SHANAHAN
    Date: 26 September 2024
    
    Variables used:
@@ -20,11 +19,9 @@
       $button <used to form string for radio buttons>
       $buttonval <used to store course ids>
       $sel <store selection from button>
-      $tcResult < store result from taken_course>
-      $grades <array to store grades>
-      $studentNums <array to store student ID nums>
-      $studentList <sql object of student db>
-      $studentnames <array storing student names matched from taken_student>
+      $Result < store result from query>
+      $grade <store grade for printing>
+      $name <store name for printing
   
    -------------------------------------  -->
 </head>
@@ -49,34 +46,22 @@
         <?
         $sel = $_POST['course'];
         if ($sel != ""){
-            $query = "SELECT * FROM courses_taken WHERE taken_course = $sel";
-            $tcResult = $dbc->query($query);
-            if (!$tcResult){ // troubleshooting, throw an error if query fails
-                die("Query failed: " . $dbc->error);
-            }
-            $grades = array(); // create array to store grades
-            $studentNums = array();
-            while ($row = $tcResult->fetch_assoc()){ // iterate over the funny values
-              $grades[]=$row['grade']; // store grades in $grades array
-              $studentNums[]=$row['taken_student']; // add studentIDs to search for
-            }
-            $query = "SELECT * FROM student";
-            $studentList = $dbc->query($query);
-            $studentNames = array(); // create array to store names
-            while ($row = $studentList->fetch_assoc()){
-                if (in_array($row['student_id'], $studentNums)){
-                    $studentNames[]=$row['fname'].' '.$row['lname'];
-                }
+            $query = "SELECT * FROM courses_taken INNER JOIN student ON courses_taken.taken_student = student.student_id WHERE courses_taken.taken_course = $sel";
+            $Result = $dbc->query($query);
+            if (!$Result){ // troubleshooting, throw an error if query fails
+                die("Query combo failed: " . $dbc->error);
             }
             print "<table> <tr>
-            <th>Name</th>
-            <th>Grade</th>
-            </tr>";
-            for ($i = 0; $i < count($studentNames); $i++){
-                print"<tr>
-                <td>$studentNames[$i]</td>
-                <td>$grades[$i]</td>
+                <th>Name MULTI</th>
+                <th>Grade</th>
                 </tr>";
+            while ($row = $Result->fetch_assoc()){
+                $grade = $row['grade'];
+                $name = $row['fname'].' '.$row['lname'];
+                print "<tr>";
+                print "<td>$name";
+                print "<td>$grade";
+                print "</tr>";
             }
             print"</table>";
         }
