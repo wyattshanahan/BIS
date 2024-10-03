@@ -1,24 +1,31 @@
 window.addEventListener("load", link_events);
 
 function link_events(){
-    document.forms["inputForm"]["submitButton"].onclick = Calculate();
+    document.getElementById("submitButton").onclick = Calculate;
 }
 
 function Calculate(){
     // input
-    //var temp = "ello";
-    var units = document.forms["inputForm"]["units"].value; // the moment i try to set var from doc.forms, it force reloads
+    var units = document.forms["inputForm"]["units"].value; 
     var temp = document.forms["inputForm"]["temp"].value;
-    
+    var output = " ";
     // data validation
     var dataValid = true;
     if (isNaN(temp)){
         alert("Temperature should be numeric");
-        dataValid = false;
+        dataValid = false;}
+    if (!(isNaN(temp))){
+        if (units === "C"){ // F to C
+            output = (temp -32) * 5 / 9;   
+        }
+        else if(units === "F"){ // C to F
+            output = temp * 9/5 + 32;
+        }
+        else{
+            output = "Failed to parse radio input";
+        }
     }
-    //alert("bonjour");
-    document.getElementById("results").innerHTML = "Hello";
+    document.getElementById("results").innerHTML = "<h2>Temperature is: " + output.toFixed(1) + "</h2>"; // toFixed does rounding
     
-    return false;
+    return false; // prevent php from reloading
 }
-
