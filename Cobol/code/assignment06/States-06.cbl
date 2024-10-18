@@ -39,7 +39,7 @@
           05 FILLER  PIC X(10)    VALUE 'Population'.
           05 FILLER  PIC X(10)   VALUE SPACES.
           05 FILLER  PIC X(4)   VALUE 'Area'.
-          05 FILLER  PIC X(3)    VALUE SPACES.
+          05 FILLER  PIC X(4)    VALUE SPACES.
           05 FILLER  PIC X(5) VALUE 'Dens.'.
           
        01 xOUTPUTDETAIL. 
@@ -51,7 +51,7 @@
           05 FILLER          PIC X(7) VALUE SPACES.
           05 neAreaOut       PIC zz9,999 VALUE 0.
           05 FILLER          PIC X(3) VALUE SPACES.
-          05 neDenOut        PIC zz9.99 VALUE 0. 
+          05 neDenOut        PIC zzz9.99 VALUE 0. 
           
        01 xCONTROL.
           05 neStateCnt PIC z9 VALUE 0.
@@ -60,7 +60,7 @@
           05 neStatePop PIC zzz,999,999 VALUE 0.
           05 FILLER     PIC X(3)    VALUE SPACES.
           05 neStateArea PIC zzz,zzz,zz9 VALUE 0.
-          05 FILLER     PIC X(3)   VALUE SPACES.
+          05 FILLER     PIC X(4)   VALUE SPACES.
           05 neStateDen PIC z99.99  VALUE 0.         
           
        01 xStateTable.
