@@ -1,3 +1,24 @@
+## Quiz Q&A
+
+1. What is the file extension for COBOL source code? *.cbl*
+2. Which of the following is true for our programming assignments? *it is imperative that I do my own work on my homework, because it is the best way to learn, and the best preparation for our exams*
+3. The name of the class server? *mislab*
+4. THe application to type the source code is? *text editor*
+5. What does a compiler do, in a general sense? *converts source code to machine language*
+6. The 'B' in COBOL stands for? *Business*
+7. How many divisions in ***any** COBOL program? *4*
+8. We have to ensure certain parts of COBOL program are in certain parts of the screen due to? *column-dependency*
+9. What is Area A? *Cols 8-11*
+10. What command compiles our COBOL source code? ``cobc -x file.cbl``
+11. Which of the following is NOT a division? *Class*
+12. Which division defines variables? *Data*
+13. Good naming for a numeric-edited of a GPA? *neGPA*
+14. Data items with pic clause of 999v99 is what type? *numeric*
+15. Which of the following is not a COBOL data type? *Float*
+16. What type of statement receives user input? *accept*
+17. Which of the following actually declares a data type? *characters in pic clause*
+18. Which of the following detects logic errors in COBOL? *human programmer or end user*
+19. Which of the following detects syntax errors in COBOL? *compiler*
 
 
 ## Quiz Q&A 2
@@ -32,3 +53,16 @@
 28. A table is created by using the "occurs" clause. *true*
 29.  If you want to step through the elements in a table, a common statement to use would be a: *perform/varying statement*
 30.  ``perform 210-process varying nSub from 5 by 10 until nSub > 50.`` How many times would you expect to perform 210-process? *5*
+
+## Quiz Q&A 3
+
+1. Which statement is used to read a record from a file? *read*
+2. Cobol function used to remove excess spaces from end of value? *function trim*
+3. Function of value clause when declaring a data item? *provide the newly created variable with an initial value*
+4. What does it mean if an external file has an organisation which is line sequential? *file is written with one record to a line*
+5. What will be the value of nSub for first time perform 210-process: ``perform 210-process varying nSub from 5 by 10 until nSub>50? *5*
+6. To step through table elements, a common statement to use would be? *Perform/Varying statement*
+7. Which statement can use to sort table? *sort*
+8. Which of following likely to display when generating a control break? *subtotals*
+9. We have used sort to sort what? *table*
+10. To step through table elements, a common statement to use would be? *Perform/Varying statement*
