@@ -14,7 +14,7 @@
             Growth Rate: <input type="text" name = "rate" size = "12" /></br>
             <br />
             <div id="button_area">
-                <input type="submit" id="submitButton" value="Submit">
+                <input type="submit" id="submitButton" value="Calculate!">
             </div>
         </form>
     </div>
