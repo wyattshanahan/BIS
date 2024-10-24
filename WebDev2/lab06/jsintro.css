@@ -1,0 +1,18 @@
+section {
+    border-style: solid;
+    height: 100px;
+    width: 100px; 
+    display: inline-block; 
+    margin: 20px; 
+}
+
+div {
+    padding: 20px;
+    border-style: solid;
+}
+
+p {
+    padding: 30px; 
+    border-style: solid;
+    border-color: red;
+}
