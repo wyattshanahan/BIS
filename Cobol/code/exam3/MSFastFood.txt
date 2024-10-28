@@ -1,0 +1,33 @@
+05BURGERS             Burger King         085
+15BURGERS             Dairy Queen         030
+25BURGERS             Five Guys           008
+33BURGERS             Freddy's            002
+18BURGERS             Hardee's            025
+08BURGERS             McDonald's          062
+02BURGERS             Sonic               126
+07BURGERS             Wendy's             077
+21BURGERS             Whataburger         013
+28CHICKEN             Bojangle's          005
+09CHICKEN             Chic-Fil-A          054
+30CHICKEN             Connie's            003
+14CHICKEN             KFC                 034
+13CHICKEN             Popeye's            037
+31CHICKEN             Raising Canes       003
+22CHICKEN             Wing Stop           012
+16CHICKEN             Zaxby's             027
+23COFFEE              Dunkin              009
+24COFFEE              Shipley's           009
+11COFFEE              Starbuck's          041
+22MEXICAN             Chipotle            012
+04MEXICAN             Taco Bell           087
+12PIZZA               Domino's            040
+06PIZZA               Little Caesar's     079
+19PIZZA               Papa John's         018
+03PIZZA               Pizza Hut           100
+17SANDWICHES          Arby's              026
+20SANDWICHES          Firehouse           016
+26SANDWICHES          Jersey Mike's       006
+32SANDWICHES          Jimmy John's        003
+10SANDWICHES          McAlister's         043
+27SANDWICHES          Panera Bread        005
+01SANDWICHES          Subway              252
