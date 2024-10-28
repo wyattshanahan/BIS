@@ -1,0 +1,58 @@
+h1 {
+    text-align: center; 
+	background-color:#520000;
+    border-style: inset;
+    color: #f4a529; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    width: 90%; /*may need expanding, depending on data size*/
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  position:absolute;
+  left: 6%;
+  border-style: solid;
+}
+
+td, th {
+  border-color: #f4a529;
+  padding: 1px;
+  text-align: left;
+}
+
+td {
+    border-style: solid;
+    background-color:purple;
+}
+
+th {
+  border-style: solid;
+  text-align: center;
+  font-size: 25px;
+  border-collapse: collapse;
+  background-color:#520000;
+}
+
+th:first-child{
+    border-right: none;
+}
+
+th:last-child{
+    border-left: none;
+}
+
+body{
+    background-image:linear-gradient(to left,#186118,#3eb489,#186118);
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight:bold;
+    color:#f4a529;
+}
+
+#tombstone{
+	position:absolute;
+	right: 6%;
+}
+
+	
