@@ -14,6 +14,11 @@ function Calculate(){
     if (isNaN(temp)){
         alert("Temperature should be numeric");
         dataValid = false;}
+    // verify if scale is checked
+    if (!units){
+        alert("Scale must be selected");
+        dataValid = false;
+    }
     if (!(isNaN(temp))){
         if (units === "C"){ // F to C
             output = (temp -32) * 5 / 9;   
