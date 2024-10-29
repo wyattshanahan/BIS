@@ -26,6 +26,15 @@ function Calculate(){
     if (isNaN(years)){
         alert("Years should be numeric");
         dataValid = false;}
+    if (!(rate)){
+        alert("Input required for rate of change");
+        dataValid = false;}
+    if (!(pop)){
+        alert("Input required for population");
+        dataValid = false;}
+    if (!(years)){
+        alert("Input required for years");
+        dataValid = false;}
     
     if (dataValid){
         pop = pop * 1; // done to force pop to be a number
