@@ -5,6 +5,8 @@
 - We use .cgi files (Common Gateway Interface)
 - Stylesheets dictate where and how elements display across the page
 - Course-standard CSS is in ``/home/bis4523/resources/code/cobol.css``
+- Key concern is the write permission, not a big issue with cobol.css
+- CGI are meant to receive input from web browsers, so we need to keep it secure with permission level 700
 
 ### HTTP RESPONSE REQUIRES
 - HTTP Header
