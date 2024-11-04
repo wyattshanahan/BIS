@@ -9,7 +9,7 @@
 - CGI are meant to receive input from web browsers, so we need to keep it secure with permission level 700
 
 ### HTTP RESPONSE REQUIRES
-- HTTP Header
+- HTTP Header   (such as ``"Content-type: text/html"``
 - Blank Line
 - HTTP Body
 
