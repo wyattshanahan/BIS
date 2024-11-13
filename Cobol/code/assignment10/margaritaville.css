@@ -1,0 +1,31 @@
+body{
+    background: #90c04b;
+}
+
+h1{ /*header with name formatting*/
+    background-color:#52b9c5;
+    border-style: inset;
+    color: #c55e52; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-align: center;
+    width: 90%; /*may need expanding, depending on data size*/
+} 
+
+#parrot{
+    position:absolute;
+    right:95px;
+    top:50px;
+}
+
+#submit {
+background: #52b9c5;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 200px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
+    font-weight: bold;
+    text-shadow: none;
+}
