@@ -1,0 +1,36 @@
+window.addEventListener("load", link_events, false);
+var xhr;
+var filter;
+var countries;
+function link_events(){ // retrieve file
+    xhr = new XMLHttpRequest();
+    xhr.open("GET","un.json");
+    xhr.send();
+    document.getElementById("submitButton").onclick = showTable;
+}
+
+function showTable(){
+    var i;
+    var output = "<table><tr><th>Name</th><th>Population</th><th>Area</th></tr>";
+    
+    if (xhr.readyState == 4 && xhr.status == 200){ // if file retrieved successfully
+        var countries = JSON.parse(xhr.responseText).countries;  // set countries by selecting from AJAX XML country
+        if (document.forms["cont"]["cont"].value){ 
+            filter = document.forms["cont"]["cont"].value;
+        for (i=0; i<countries.length; i++){
+            if (countries[i].continent === filter){
+                output += "<tr><td>" + countries[i].name + "</td><td>" + 
+                countries[i].pop + "</td><td>" + countries[i].area
+                + "</td></tr>";
+            }
+        }
+        output += "</table>";
+        document.getElementById("results").innerHTML = output; // toFixed does rounding
+        }
+    }
+    return false; // prevent php from reloading
+}
+
+
+
+// JSON uses bigvalue.subvalue access format
