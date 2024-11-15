@@ -1,5 +1,8 @@
 body{
     background: #90c04b;
+    color: #c55e52;
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 h1{ /*header with name formatting*/
@@ -20,7 +23,7 @@ h1{ /*header with name formatting*/
 
 #submit {
 background: #52b9c5;
-color: white;
+color: #c55e52;
 border-style: outset;
 border-color: #0066A2;
 height: 50px;
@@ -28,4 +31,30 @@ width: 200px;
     font-family: "Comic Sans MS", "Comic Sans", cursive; /*use multiple fonts for fallback*/
     font-weight: bold;
     text-shadow: none;
+}
+
+#songzone {
+font-family: "Comoc Sans MS", "Comic Sans", cursive;
+background: #52b9c5;
+position: relative;
+padding: 10px;
+border-radius:15px;
+color: #c55e52;
+font-weight:bold;
+width: 30%;
+float: left;
+box-shadow: 2px 2px 10px black;
+min-height: 200px;
+}
+
+#iframe {
+background: #52b9c5;
+position: absolute;
+left: 33%;
+padding: 2%;
+min-height: 200px;
+border-radius: 15px;
+float: right;
+width: 40%;
+box-shadow: 2px 2px 10px black;
 }

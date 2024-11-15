@@ -30,7 +30,7 @@
        77  xEofFlag           pic x         value 'n'.
        77  xProcSong          pic x(4).
        01  xOutput.
-           05  filler         pic x(25)     value "<section id='songzone'>".
+           05  filler         pic x(21)     value "<div id='songzone'>".
            05  xOutImage      pic x(29). 
            05  filler         pic x(12)     value "</br> Song: ".
            05  xOutSong       pic x(24).
@@ -38,10 +38,10 @@
            05  neOutYear      pic 9999.
            05  filler         pic x(13)      value "</br> Album: ".
            05  xOutAlbum      pic x(42).
-           05  filler         pic x(10)      value "</section>".
-           05  filler         pic x(21)     value "<section id='iframe'>".
+           05  filler         pic x(6)      value "</div>".
+           05  filler         pic x(17)     value "<div id='iframe'>".
            05  xIframe        pic x(328).
-           05  filler         pic x(10)    value "</section>".
+           05  filler         pic x(6)    value "</div>".
            
            copy "postData-workingstorage.cbl".
        procedure division.
