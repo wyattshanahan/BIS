@@ -34,7 +34,8 @@
            05  neOutQuantity  pic zz9.
            05  filler         pic x(9)      value "</td><td>".
            05  neOutPrice     pic $9.99.
-           05  filler         pic x(9)      value "</td><td>".
+           05  filler         pic x(10)      value "</td></tr>".
+           05  filler         pic x(31)     value "<tr><td colspan=3 align=center>".
            05  xOutImage      pic x(35). 
            05  filler         pic x(10)     value "</td></tr>".
            
@@ -53,7 +54,7 @@
            display "<html>".
            display "<head>".
            display "<title>Fruit Webpage</title>".
-           display "<link rel=stylesheet type='text/css' href='style.css'>".
+           display "<link rel=stylesheet type='text/css' href='style2.css'>".
            display "</head>".
            display "<body>".
            call "getPostData".
