@@ -30,7 +30,7 @@ td, th {
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
   padding: 1px;
-  text-align: left;
+  text-align: center;
 }
 
 td {
