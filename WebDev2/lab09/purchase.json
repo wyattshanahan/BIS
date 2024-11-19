@@ -1,0 +1,118 @@
+{ "inventory": [
+   {
+      "name": "Star Trek Enterprise Pizza Cutter",
+      "price": "22.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Star Wars Death Star Tea Infuser",
+      "price": "19.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Tactical BBQ Grill",
+      "price": "34.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Tetris Stackable LED Desk Lamp",
+      "price": "39.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Circuit Board Business Card Case",
+      "price": "28.99",
+      "quantity": "3"
+   },
+   {
+      "name": "USB Toaster Hub",
+      "price": "24.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Minecraft Sheet Magnets",
+      "price": "19.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Mega Man Air Freshener",
+      "price": "1.79",
+      "quantity": "4"
+   },
+   {
+      "name": "Butterfly Knife Pen",
+      "price": "9.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Origami Sticky Notes",
+      "price": "4.99",
+      "quantity": "3"
+   },
+   {
+      "name": "Like/Dislike Stamp Set",
+      "price": "12.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Bacon Soap",
+      "price": "4.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Shocking Pen",
+      "price": "5.99",
+      "quantity": "2"
+   },
+   {
+      "name": "Hobbit Letter Opener",
+      "price": "29.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Red Swinglife Stapler",
+      "price": "24.99",
+      "quantity": "1"
+   },
+   {
+      "name": "8-bit Flower Bouquet",
+      "price": "14.99",
+      "quantity": "1"
+   },
+   {
+      "name": "Glow in the Dark Toilet Paper",
+      "price": "4.89",
+      "quantity": "0"
+   },
+   {
+      "name": "TARDIS Mini Fridge",
+      "price": "79.99",
+      "quantity": "0"
+   },
+   {
+      "name": "42 Utility Towel",
+      "price": "12.99",
+      "quantity": "1"
+   },
+   {
+      "name": "Garden Zombie",
+      "price": "99.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Monty Python Killer Rabbit Slippers",
+      "price": "39.99",
+      "quantity": "2"
+   },
+   {
+      "name": "Wampa Rug",
+      "price": "116.99",
+      "quantity": "0"
+   },
+   {
+      "name": "Tauntaun Sleeping Bag",
+      "price": "134.99",
+      "quantity": "0"
+   }
+ ]   
+}
