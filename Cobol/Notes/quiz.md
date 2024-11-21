@@ -69,4 +69,107 @@
 
 ## Quiz Q&A 4
 
-* this section to be completed *
+1. What does the following line of code do? display "<!doctype html>". *informs the browser about the language/protocol of the program*
+2. In HTTP syntax, a "response header" must be followed by a/an: *blank line*
+3. When do you have to change your executable's file name to include the .cgi extension? *after every time you compile*
+4. What does the 'd' at the beginning of a string of permissions mean? *the permissions belong to a directory*
+5. What does the numerical value "700" mean for a file's permissions? *the file owner can write to the file, but nobody else can*
+6. What Unix command would you use to rename your executable code to have a .cgi extension? *mv MyProgram MyProgram.cgi*
+7. What is the result of the following statement? display "<title>Web-02.cbl</title>". *"Web-02.cbl" is displayed in the active web browser tab*
+8. What ASCII character does the base-16 value "0a" translate to? *line feed*
+9. There are three required components for a web server to successfully communicate with a user's web browser.  Which of the following is NOT one of those components? *HTTP Request*
+10. In the following statement:77  xNewLine        pic x           value x"0a". What is the purpose of the x in the value clause? *informs the compiler the initial value is hexidecimal*
+11. What is the reason we might use the following pair of HTML tags? <tr>...</tr> *to define a row of output within an HTML table*
+12. What is the reason we might use the following HTML tag? <img src='pineapple.png'> *to display an image on a web page*
+13. What is the reason we might use the following pair of HTML tags? <table>...</table> *to define a table on a web page*
+14. The file we have linked to in a couple of recent COBOL programs, cobol.css, is an example of a(n): *cascading stylesheet*
+15. Your cgi program is executed by: *the web server*
+16. What Linux command would you use on mislab to get a listing of your files in your account *ls -l*
+17. What is the command you use to change a file's or a directory's permissions? *chmod*
+18. What does the numerical value "700" mean for a file's permissions? *the file owner can write to the file, but nobody else can*
+19. Clicking the Submit button on a form results in which of the following? * an HTTP request is transmitted to the web server*
+20. What form element is instituted with the following tags? <select name=studentname size=15>...</select> *selectlist (aka dropdown menu)*
+21. In the following form tag, what does the action attribute do?<form  action='Roster-03.cbl'  method=post  enctype='text/plain'>..</form>  *submits input to the linked resource Roster-03.cbl*
+22. What COBOL function retrieves a value submitted through a web form? *getPostValue*
+23. In order for a web form user to actually send values to a .cgi program, what form element is essential? *submit element*
+24. What command serves to import reusable code into a COBOL program? *copy*
+25. The reusable code we are importing into our COBOL programs are all _____ files. *.cbl*
+26. The typical web form will transmit input data in which of the following formats? *name=value pairs*
+27. If checking your file status returns a value of 00, what does that mean? *no errors, the files was successfully accessed*
+28. What mode do you open an external sequential file in to add a record to it? *extend*
+29. In what clause does a external file's actual file name appear? *assign to*
+30. The syntax of the Close statement is "Close" followed by a/an: *internal file name*
+31. Which of the following would be suitable for linking to a resource that can process data transmitted by a form? *<form action='AddFruit.cgi' method=post enctype='text/plain'>*
+32. When is it possible to check the condition of an external file? *immediately after attempting to access the file*
+33. What problem do you foresee occurring with the following data item? 05   filler               pic x(8)              value "</td></tr>". *the pic clause is too small for the initial value*
+34. What does the following pair of tags result in? <tr></tr> *opens and closes a table row*
+35. What does the following pair of tags result in? <td></td> *opens and closes a table cell*
+
+## Exam Q&A 1
+1. COBOL stands for: *COmmon Business Oriented Language*
+2. Which of the following pic clause symbols may NOT be used in a numeric data item? .
+3. The application we use to type up our source code is called a ______. *text editor*
+4. In order to compile our COBOL source code, we use which of the following commands? *cobc -x file.cbl*
+5. Area A includes: *columbs 8-11*
+6. Which of the following is NOT a Division of a COBOL program? *class*
+7. Which of the following is not a COBOL data type? *percent*
+8. In our class, if a data item has a pic of zz,zz9.99, we would name that data item with a prefix of: *ne-*
+9. According to our class naming convention, what prefix will we put on the beginning of a numeric data item? *n-*
+10. Which of the following actually declares the type of a data item? *characters in the pic clause*
+11. In which Division do you declare data items? *data*
+12. Which of the following is a required paragraph in the Identification Division? *program-id*
+13. Which of the following would be a valid user-defined name for a COBOL program? *written-exam-1*
+14. Your program produces output that is incorrect.  What kind of error is that? *logic*
+15. Which of the following detects syntax errors in COBOL? *the compiler*
+16. A syntax error occurs when: *a rule of the language has been broken*
+17. What is the purpose of the Stop Run statement? *terminates the execution of the COBOL program*
+18. What type of statement receives input from the user's keyboard? *accept*
+19. Which statement evaluates the right hand side of an equation and assigns the value to a data item on the left hand side? *compute*
+20. In which Division do write executable statements? *procedure*
+
+## Exam Q&A 2
+1. A syntax error occurs when: *a rule of the language was broken*
+2. Which statement is used to write a record into a file? *write*
+3. Which statement is used to display output onto the user's screen? *display*
+4. Which statement is used to read a record from a file? *read*
+5. A _____ statement will copy & paste a value from one data item to another. *move*
+6.  You need three things for each input or output file that you use. Which of the following is NOT one of those three things?  *read*
+7.  When you read a record from a file, the data from that record will automatically go to: *the associated record description*
+8.  The COBOL function that can be used to remove excess spaces off the end of a value you want to work with:  *function trim*
+9.  Which of the following actually declares the type of a data item? *characters in pic clause*
+10.  You can give a variable an initial value by using the ______ clause. *value*
+11.  We refer to data items that keep a running total of a value while a repetition statement is being executed as _____ data items.  *accumulator*
+12.  What does it mean if an external file has an organization that is line sequential? * the file is written with one record to a line*
+13.   If you name a data item xCustomerTable, that makes it a table. *false*
+14.   A table is created by using the "occurs" clause *true*
+15.   If you want to step through the elements in a table, a common statement to use would be a *perform/varying statement*
+16.   Consider the following statement: perform 210-process varying nSub from 5 by 10 until nSub > 50. How many times would you expect to perform 210-process? *5*
+17.   The syntax of the Open statement is "Open" followed by a/an *mode of access*
+18.   In the statement open output OutFile. the term "output" declares the ____________. *mode of access*
+19.   In the statement   open input In-File.   the term "input" declares the ____________. *mode of access*
+20.    If you have 100 employees in your organization, how many records would you expect to have in your payroll data file?  *one record per employee*
+
+## Exam Q&A 3
+1.  According to our class naming convention, which of the following would be a good name for a numeric-edited data item that is meant to display a student's GPA? *neGPA*
+2.   In our class, if a data item has a pic of zz,zz9.99, we would name that data item with a prefix of:  *ne-*
+3.    If you see a data item with a pic clause of 999v99, what data type does it have? *numeric*
+4. Which of the following actually declares the type of a data item? *the characters in the pic clause*
+5. Take a look at the following statement:   perform 200-processing until xEofFlag = 'y'.  Under what conditions will the 200-processing paragraph be executed? *only when xEofFlag has a value other than 'y'*
+6.  Where does the accept... date statement retrieve the current date value from?  *your computer's operating system*
+7.  In the statement   open input In-File.   the term "input" declares the ____________. *mode of access*
+8.  The COBOL function that can be used to remove excess spaces off the end of a value you want to work with:  *function trim*
+9.   A table is created by using the "occurs" clause. *true*
+10.    Tables consist of elements. Files consist of records. *true*
+11. If you want to step through the elements in a table, a common statement to use would be a:  *perform/varying statement*
+12.   Consider the following statement: perform 210-process varying nSub from 5 by 10 until nSub > 50. How many times would you expect to perform 210-process? *5*
+13.    A subscript data item must be: *numeric*
+14. Which statement can you use to sort a table? *sort*
+15.  Which of the following would you likely display when generating a control break? *subtotals*
+16.   In class this semester, we have used the Sort statement to sort a/an:*table*
+17.    If you want to step through the elements in a table, a common statement to use would be a: *perform/varying statement*
+18. Consider the following lines of code: 01  xGradeTable.  05   nGradeElement occurs 25 times   pic 9999.  What is the maximum size (in bytes) of xGradeTable? *100*
+19. What is the initial value of nProcessSubscript in the following statement? perform 220-processing varying nProcessSubscript from 1 by 2  until nProcessSubscript > nLoadSubscript. *1*
+20.  Why do we say that tables in COBOL are "1-based"? *the first element of COBOL tables is "element 1"*
+
+
+
