@@ -1,0 +1,25 @@
+body {
+    background-color: maroon;
+    color: white; 
+}
+th{
+	text-align:center;
+}
+
+table, td, th {
+    border: thin black solid;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:hover {
+    background-color: yellow;
+    color: purple;
+}
+
+td {
+    vertical-align: top;
+    padding: 6px;
+}
